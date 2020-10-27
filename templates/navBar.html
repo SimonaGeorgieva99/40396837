@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-	<link rel="stylesheet" href="{{ url_for('static', filename='nav.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesHome.css') }}">
 </head>
 <body>
 	<nav class = "topnav">
@@ -10,5 +10,7 @@
 		<a href="/javascript" class="navigation">JavaScript</a>
 		<a href="/contacts" class="navigation">Contacts</a>
 	</nav>
+	
+	{% block content %} {% endblock %}
 </body>
 </html>
