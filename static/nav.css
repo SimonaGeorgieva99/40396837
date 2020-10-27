@@ -1,0 +1,17 @@
+.topnav {
+	float: left;
+	overflow:hidden;
+	display: inline;
+	margin-left: 900px;
+	font-size: 25px;
+	position: absolute;
+	background-image: linear-gradient(to bottom right, #00bcd4, #009688);
+}
+
+.navigation {
+	font-weight: bolder;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-family: cursive;
+	color: black;
+}
