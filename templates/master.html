@@ -1,5 +1,6 @@
 <!doctype html>
 <head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='stylesHome.css') }}">
 </head>
 <body>
@@ -12,5 +13,10 @@
 	</nav>
 	
 	{% block content %} {% endblock %}
+	
+	<hr>
+	<footer>
+		<p class="footer-content">Edinburgh Napier University assignment <br> Mady by Simona Georgieva</p>
+	</footer>
 </body>
 </html>

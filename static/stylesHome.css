@@ -1,29 +1,61 @@
-.topnav {
-			display: inline;
-			font-size: 25px;
-			background-image: linear-gradient(to bottom right, #00bcd4, #009688);
-		}
-	
-		.navigation {
-			font-weight: bolder;
-			padding: 5px 15px;
-			text-decoration: none;
-			font-family: cursive;
-			color: black;
-		}
+.box {
+	display: block;
+	padding: 1% 2%;
+}
 
-		.image {
-			padding-top: 15px;
-			position: absolute;
-		}
+.card {
+	width: 350px;
+	height: 200px;
+	border: 1px solid #DCDCDC;
+}
 
-		.firstImage {
-			opacity: 60%;
-		}
+.card-header {
+	font-size: 20px;
+}
+
+.card-image {
+	align-self: center;
+}
+
+.circle-image {
+	float: left;
+	display: flex;
+	margin: 25px 5px 25px 10px;
+}
+
+.content {
+	line-height: 150%;
+}
+
+.image {
+	padding-top: 15px;
+}
+
+.logo-image {
+	padding: 10px 10px 10px 10px;
+}
+
+.name {
+	padding: 25px 10px 0px 10px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.subheader {
+	text-align:center;
+}
 		
 .title {
-  position: absolute;
-  top: 150px;
-  right: 80px;
-  font-size: 60px;
+	position: absolute;
+	top: 150px;
+	right: 80px;
+	font-size: 60px;
+}
+
+.title-image {
+	opacity: 60%;
 }

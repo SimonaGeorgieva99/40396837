@@ -1,0 +1,29 @@
+.topnav {
+	height: 45px;
+	width: 600px;
+	margin-left: 915px;
+	font-size: 25px;
+	background-image: linear-gradient(to bottom right, #00bcd4, #009688);
+}
+
+.navigation {
+	font-weight: bolder;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-family: cursive;	
+	color: black;
+}
+
+footer {
+	background-image: linear-gradient(to bottom right, #00bcd4, #009688);
+}
+
+.footer-content {
+	text-align: center;
+	margin: 5px;
+	line-height: 2;
+}
+
+hr {
+	border: 1px solid;
+}
