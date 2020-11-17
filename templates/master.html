@@ -2,13 +2,15 @@
 <head>
 	<link rel="stylesheet" href="{{ url_for('static', filename='master.css') }}">
 	<link rel="stylesheet" href="{{ url_for('static', filename='stylesHome.css') }}">
+	{% block contentHead %}
+	{% endblock %}
 </head>
 <body>
 	<nav class = "topnav">
 		<a href="/home" class="navigation">Home</a>
-		<a href="/html" class="navigation">HTML</a>
-		<a href="/css" class="navigation">CSS</a>
-		<a href="/javascript" class="navigation">JavaScript</a>
+		<a href="/htmlIntro" class="navigation">HTML</a>
+		<a href="/cssIntro" class="navigation">CSS</a>
+		<a href="/javascriptIntro" class="navigation">JavaScript</a>
 		<a href="/contacts" class="navigation">Contacts</a>
 	</nav>
 	

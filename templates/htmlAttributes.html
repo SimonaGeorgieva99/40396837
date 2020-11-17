@@ -1,0 +1,41 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+            <div class="theoryContent">
+                <p>Attributes provide additional information about the lements and are specified in the start tag. They are used to modify the element by adding some additional features. It provides functionality and some elements cannot function without it. For example the <i>href</i> and the <i>src</i> are always used when we need a link or an image, respectively.</p>
+            </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"><i><span><</span> a href="URL to a website" <span>></span> Website to visite <span><</span> a <span>></span></i></p>
+            <p class="codeContent"><i><span><</span> img src="path to image" width="size" height="size" <span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+            <p>Another example of an attribute can be the <i>style</i> attribute which is used to style a particular element. The example on the right shows how it is used.<br>And one last attribute added to this basic knowledge of attributes is called <i>lang</i>. It is used for declaring the language of the webpage and also help the seach engines and browsers.</p> 
+        </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"><i><span><</span> p style="color:pink;" <span>></span> This paragraph has an attribute color to make its content pink. <span><</span> p <span>></span></i></p>
+            <p class="codeContent"><i><span><</span> html lang="en" <span>></span></i> - The webpage will be in English.</p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Attributes. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+    <a href="/htmlLists"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

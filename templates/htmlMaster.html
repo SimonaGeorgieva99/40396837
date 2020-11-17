@@ -1,0 +1,35 @@
+{% extends "master.html" %}
+
+
+{% block contentHead %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='htmlIntro.css') }}"> 
+{% endblock %}
+
+{% block content %}
+<div class="pageInfo">
+        <div class="content">
+            <div class="image">
+                <img src="{{ url_for('static', filename='images/htmlLogo.png') }}" width="230" height="230"> 
+            </div>
+
+            <div class = "text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+            </div>
+        </div>
+</div>
+
+<div class = "secondnav">
+        <a href="/htmlIntro" class="navigationTwo">Tags</a>
+        <a href="/htmlAttributes" class="navigationTwo">Attributes</a>
+        <a href="/htmlLists" class="navigationTwo">Lists</a>
+        <a href="/htmlLayout" class="navigationTwo">Layout</a>
+        <a href="/htmlTables" class="navigationTwo">Tables</a>
+        <a href="/htmlForm" class="navigationTwo">Form</a>
+ </div>
+
+	{% block contentTwo %}
+	{% endblock %}
+
+{% endblock %}
+

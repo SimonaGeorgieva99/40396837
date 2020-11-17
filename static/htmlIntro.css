@@ -1,0 +1,81 @@
+.pageInfo {
+	display: block;
+	padding: 1% 2%;
+        justify-content: center;
+}
+
+.image {
+        float: left;
+	margin: 25px 150px 25px 150px;
+}
+
+.text {
+        line-height: 150%;
+        font-size: 18px;
+}
+
+p {
+	padding: 1%;
+}
+
+.secondnav {
+        border: 1px solid black;
+        font-size: 25px;
+        background-color: lightcyan;
+}
+
+.navigationTwo {
+        text-decoration: none;
+        color: black;
+        padding: 55px;
+        font-family: cursive;
+        font-weight: bolder;            
+}
+
+.examples {
+        display: flex;
+        flex-wrap: wrap;
+	padding: 1% 2%;
+        justify-content: center;
+}
+
+.theoryContent {
+        line-height: 130%;
+        border: 1px solid black;
+        font-size: 18px;
+        float: left;
+        width: 450px;
+}
+
+.arrow {
+        font-size: 140px;
+        float: left;
+        padding: 0% 10%;
+}
+
+.codeExample {
+        display: inline-table;
+        border: 1px solid black;
+        float: left;
+        width: 38%;
+}
+
+.codeContent {
+        font-size: 18px;
+}
+
+.end-paragraph {
+        font-size: 20px;
+        text-align: center;
+}
+
+.button-container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.next-button {
+        font-size: 30px;
+        background-color: lightcyan;
+}

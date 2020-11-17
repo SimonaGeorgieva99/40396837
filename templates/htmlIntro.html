@@ -1,0 +1,39 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+            <div class="theoryContent">
+                <p>Tags in HTML can be used to define headers, content text, images, links, tables, forms and many more things. But we will not be able to explore all of them while studying the basics of web development. The top example on the right is showing how a tag is created using HTML. It consist of a start tag surrounded by < >, content which is the text shown on the screen and an end tag. </p>
+            </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"><i><span><</span> tagname <span>></span> Content of the tag <span><</span> tagname <span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+            <p>How an HTML page is structured?<br>We start with <span><</span>!DOCTYPE html<span>></span>. Then come the head which contains the title, CSS, JS, etc. It is followed by the body which is the part containing all of the content of the page and finished with a footer.</p> 
+        </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"><i><span><</span>!DOCTYPE html<span>></span> <br> <span><</span>head<span>></span> <span><</span>/head<span>></span> <br> <span><</span>body<span>></span> <span><</span>/body<span>></span> <br> <span><</span>footer<span>></span> <span><</span>/footer<span>></span> <br> <span><</span>/html<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Tags. More detailed informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/htmlAttributes"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}
