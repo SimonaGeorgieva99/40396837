@@ -1,0 +1,40 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+            <div class="theoryContent">
+                <p>First type of lists is unordered. The the list item will be printed with bullet points (black dots) by default. <br> <br> The other type is ordered which marks the elements with numbers by default. <br> <br> The examples will show how you can use both of them.</p>
+            </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"> <b>Unordered list</b> <br><i><span><</span>ul<span>></span> <br> <span><</span>li<span>></span> First element <span><</span>/li<span>></span> <br> <span><</span>li<span>></span> Second element <span><</span>/li<span>></span> <br> <span><</span> /ul <span>></span></i></p>
+            <p class="codeContent"><b>Ordered list</b> <br><i><span><</span>ol<span>></span> <br> <span><</span>li<span>></span> First element <span><</span>/li<span>></span> <br> <span><</span>li<span>></span> Second element <span><</span>/li<span>></span> <br> <span><</span> /ol <span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+            <p>HTML also supports description lists. These are lists of terms with description of each term. It has three tags: one to define the type of the list, the other defines the term and the last one describes it.</p> 
+        </div>
+
+        <div class="arrow">
+            &rarr;
+        </div>
+
+        <div class="codeExample">
+            <p class="codeContent"><b>Description list</b> <br><i><span><</span>dl<span>></span> <br> <span><</span>dt<span>></span> Coffee <span><</span>/dt<span>></span> <br> <span><</span>dd<span>></span> black hot drink <span><</span>/dd<span>></span> <br> <span><</span>dt<span>></span> Milk <span><</span>/dt<span>></span> <br> <span><</span>dd<span>></span> white cold drink <span><</span>/dd<span>></span> <br><span><</span> /dl <span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Lists. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+    <a href="/htmlLayout"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}
