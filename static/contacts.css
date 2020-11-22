@@ -1,0 +1,39 @@
+.container-block {
+            display:flex;
+            flex-wrap: wrap;
+            padding: 1% 2%;
+            justify-content: center;
+        }
+
+        .info {
+            float: left;
+            padding: 0% 40% 0% 5%;
+        }
+
+        .content {
+            font-size: 26px;
+        }
+
+        .container {
+            display:flex;
+            flex-wrap: wrap;
+
+        }
+
+        .info-content {
+            float: left;
+            display: inline-table;
+            border: 1px solid black;
+            width: 38%;
+            margin-left: 20px;
+            padding: 3%
+        }
+
+        #contact-form {
+            font-size: 25px;
+            justify-content: center;
+        }
+
+        .form {
+            padding-left: 530px;
+        }

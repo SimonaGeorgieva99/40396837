@@ -1,0 +1,41 @@
+{% extends "master.html" %}
+
+{% block contentHead %}
+<link rel="stylesheet" href="{{ url_for('static', filename='contacts.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="container-block">
+        <div class="info">
+            <div></div>
+            <p class="content">Contacts:</p>
+            <p class="content">Email address - introHTML@gmail.com</p>
+            <p class="content">Phone number  - 07748521687</p>
+            <p class="content">Adress        - Location address</p>
+        </div>
+
+        <div class="image">
+            <img src="{{url_for('static', filename='images/location.jpg') }}" width="230" height="230">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="info-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+        </div>
+
+        <div class="form">
+            <form id="contact-form" name="sentMessage" novalidate="novalidate" action="{{url_for('test')}}" method="POST">
+                <label>Name</label><br>
+                <input name="subject" type="text" /><br>
+                <label>Message</label><br>
+                <textarea name="body"></textarea><br>
+                <input type="submit" value="Send" /><br>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+{% endblock %}

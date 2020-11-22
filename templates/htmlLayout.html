@@ -1,0 +1,45 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p><i><span><</span>header<span>></span></i> - A header for a website, most common thing included there is the title. <br> <i><span><</span>nav<span>></span></i> - A navigation bar containing links to other pages from the website. <br> <i><span><</span>section<span>></span></i> - A section of a document which is part from the body. <br> <i><span><</span>article<span>></span></i> - Another part of the body - content of a document. <br> <i><span><</span>aside<span>></span></i> - Something like a sidebar, content aside from the main one. <br> <i><span><</span>footer<span>></span></i> - Footer of the document.</p>
+        </div>
+
+	<div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<img src="{{ url_for('static', filename='images/layout.JPG') }}" style="display: block; margin-left:auto; margin-right:auto;" >
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Depending on what the web page is about, some of the sections might be skipped if they are not needed. It is good practice to have a navigation bar in the website which helps the user explore it easily and effectively. Here is an example of a navigation bar:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p class="codeContent"> The following example is really straightforward. The navigation bar is created using an unordered list covered in the previous lesson. Then the links are added into a tag used for links which was covered in the 'Attributes' lesson. There are also other more advanced techniques to create a nav bar. <br>
+			<ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#contact">Contacts</a></li>
+                            <li><a href="#about">About</a></li>
+                        </ul>
+		</p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Layout. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/htmlTables"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

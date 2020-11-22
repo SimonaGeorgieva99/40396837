@@ -1,0 +1,39 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>HTML tables are used for arranging data into rows and columns. Each table has a row, header and data. To make the table more good looking, some styele using CSS should be added. The example on the right will show what tags are used to form a simple table.</p>
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">	
+		<p><i><span><</span>table<span>></span></i> (creates the table) <br> <i><span><</span>tr<span>></span></i> (row of a table) <br> <i><span><</span>th<span>></span></i> First name <i><span><</span>/th<span>></span></i> (table header) <br> <i><span><</span>th<span>></span></i> Last name <i><span><</span>/th<span>></span></i> <br> <i><span><</span>/tr<span>></span></i> <br> <i><span><</span>tr<span>></span></i> <br> <i><span><</span>td<span>></span></i> Simona <i><span><</span>/td<span>></span></i> (data in the table) <br> <i><span><</span>td<span>></span></i> Georgieva <i><span><</span>/td<span>></span></i> <br> <i><span><</span>/tr<span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Sometimes more than one record of data is needed to be put in the table. The <i>'colspan'</i> and <i>'rowspan'</i> attributes can be added to the table header by giving it a value which is the number of rows and columns we need to add more. Here is simple example:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>table<span>></span></i> <br> <i><span><</span>tr<span>></span></i> <br> <i><span><</span>th colspan="2"<span>></span></i> Phone number <i><span><</span>/th<span>></span></i> <br> <i><span><</span>/tr<span>></span></i> <br> <i><span><</span>tr<span>></span></i> <br> <i><span><</span>td<span>></span></i> 07759582458 <i><span><</span>/td<span>></span></i> <br> <i><span><</span>td<span>></span></i> 07747365912 <i><span><</span>/td<span>></span></i> <br> <i><span><</span>/tr<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Tables. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/htmlForms"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}
