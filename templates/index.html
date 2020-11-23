@@ -1,0 +1,11 @@
+{% extends "master.html" %}
+
+{% block content %}
+	<p> In discussion </p>
+	{% for post in posts %}
+		<p> {{ post['name'] }} </p>
+		<span> {{ post['comment'] }} </span>
+		<hr>
+	{% endfor %}
+
+{% endblock %}
