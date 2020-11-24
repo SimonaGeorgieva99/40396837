@@ -1,0 +1,39 @@
+{% extends "jsMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+        <div class="theoryContent">
+                <p>Loops can execute a block of code a number of times. Useful when the same code needs to be run over and over again. Different kind of loops are for (loops through a block of code a number of times), do/while (loops through a code while a specified condition is true) and while.</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i>for (statement1(star point); statement2(end point); statement3(iteration)) { <br> // block of code to be executed <br> } <br> <br> do { <br> // block of code to be executed <br> } <br> while (condition);</i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Example how it is used with HTML:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>body<span>></span> <br> <span><</span>p id="test"<span>></span> <br> <span><</span>/body<span>></span> <br> <span><</span>script<span>></span> <br> <span> for (i=0; i<5; i++) { </span> <br> text += "The number is " + i; <br> } <br> document.getElementById("test").innerHTML = text; <br> <span><</span>/script<span>></span>  </i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to JS Loops. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+        <a href="/jsFunctions"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

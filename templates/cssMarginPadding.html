@@ -1,0 +1,39 @@
+{% extends "cssMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>The CSS margin is used to create space around element and to differentiate one from another.It can be set on all of the sides - <i>margin-top, margin-right, margin-bottom, margin-left</i>. They can have a value of auto, length, % and inherit. <br> <br> It can be all grouped and all 4 properties can be written together: <i>margin: 10px 10px 10px 10px;</i>. It can also have three values <i>(top, right&left, bottom)</i>, two values <i>(top&bottom, right&left)</i> and one (all in one).</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span> style <span>></span> <br> div { <br> margin-top:10px; <br> margin-right:10px; <br> margin-bottom:10px; <br> margin-left:10px; <br> } <br> <span><</span> /style <span>></span></span> <br> <br> <span><</span>body<span>></span> <br> <span><</span>div <span>></span> This element has a all sides at margin 10px. <span><</span>/div<span>></span> <br> <span><</span>/body<span>></span> </i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>It can be set to <i>auto</i> to horizontally center the element within its container. The space will be equally split between the left and right margins. <br><br> If it is set to <i>inehrit</i>, it means that it is inherited from another element and they both end up having the same margin.</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span> style <span>></span> <br> div { <br> <span>margin:auto;</span> <br> } <br> <span><</span> /style <span>></span></span> <br> <br> <span><</span>body <span>></span> <br> <span><</span>div<span>></span> The element is horizontally in the center within the div box and has equal values for left and right.<span><</span>/div<span>></span> <br> <span><</span>/body<span>></span> </i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to CSS Margin & Padding. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+        <a href="/cssText"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

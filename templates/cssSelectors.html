@@ -1,0 +1,39 @@
+{% extends "cssMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>CSS has two other type of Selectors: class and id. The class selector, selects HTML elements with a specific class attribute. To select it, it a dot is added before the class name. It can be given to one, two or more elements and can be styled at one place. Here is an example:</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span> style <span>></span> <br> .classOfElement { <br> <span>text-align:center;</span> <br> <span>color:pink;</span> <br> <span>}</span> <br> <span><</span> /style <span>></span></span> <br> <br> <span><</span>p class="classOfElement"<span>></span> This element is centered and in pink. <span><</span>p<span>></span> <br> <span><</span>p class="classOfElement"<span>></span> This is another element which is centered and in pink. <span><</span>p<span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Another type of selector is id. It is used for elements that are unique within the page. The id is specified using '#' in front of the id name.</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span> style <span>></span> <br> #idOfElement { <br> <span>text-align:center;</span> <br> <span>color:pink;</span> <br> <span>}</span> <br> <span><</span> /style <span>></span></span> <br> <br> <span><</span>p id="idOfElement"<span>></span> This element is centered and in pink. <span><</span>p<span>></span> <br> <span><</span>p<span>></span> This element has no style. <span><</span>p<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to CSS Selectors. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/cssBackgrounds"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

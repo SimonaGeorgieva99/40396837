@@ -1,6 +1,7 @@
 {% extends "master.html" %}
 
 {% block content %}
+	<a href="/create">Add new comment</a>
 	<p> In discussion </p>
 	{% for post in posts %}
 		<p> {{ post['name'] }} </p>

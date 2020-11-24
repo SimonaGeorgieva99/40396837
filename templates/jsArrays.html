@@ -1,0 +1,39 @@
+{% extends "jsMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>JavaScript arrays are used to store multiple values in a single variable. Each element can be accessed by referring to an index number.</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i>var array_name = [item1, item2, ...]; <br> <br> var arr = new Arrays("item1", "item2", "item3"); <br> var item = arr[0]; </i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>The <i>toString()</i> method returns an array as a comma separated string. Another useful thing when working with arrays is popping items out and pushing items into.</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>body<span>></span> <br> <span><</span>p id="test" <span>></span> <span><</span>/p<span>></span> <br> <span><</span>/body<span>></span> <br> <span><</span>script<span>></span> <br> var arr = ["item1", "item2", "item3"]; <br> document.getElementById("test").innerHTML = arr.toString(); <br> arr.pop(); (remove item) <br> document.getElementById("test").innerHTML = arr; <br> arr.push("item4"); (add items) <br> document.getElementById("test").innerHTML = arr; <br> <span><</span>/script<span>></span> <br> </i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to JS Arrays. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+        <a href="/jsConditions"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

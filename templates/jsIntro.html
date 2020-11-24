@@ -1,0 +1,39 @@
+{% extends "jsMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>What can JavaScript do with HTML content?<br>The answer is multiple things. It can substitute any content and add functionality to it. Here is an example which will switch the content of the paragraph to another when a button is clicked:</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>p id="test"<span>></span> Content before the change. <span><</span>/p<span>></span> <br> <br> <span><</span>button type="button" onclick='document.getElementById("test").innerHTML = "Content after the button is clicked"'<span>></span></span>Click here!<span><</span>/button<span>></span> </i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Another really interesting and useful thing that it can do is change the style of the elements. It is done the following way:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>p id="test"<span>></span> Content before the change. <span><</span>/p<span>></span> <br> <br> <span><</span>button type="button" onclick='document.getElementById("test").style.fontSize='30px' = "Content after the button is clicked and the style is changed"'<span>></span></span>Click here!<span><</span>/button<span>></span> </i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to JavaScript and how it can be used with HTML. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/jsVars"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

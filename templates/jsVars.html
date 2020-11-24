@@ -1,0 +1,39 @@
+{% extends "jsMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>Variables are containers for storing data values. It is done using the keyword <i>var</i>. Other keywords that are used are <i>let</i> and <i>const</i>.</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>script<span>></span> <br> var x=5; <br> var y=2; <br> var z = x + y; <br> <span><</span>/script<span>></span></i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Variables can hold numbers and text values called strings written with quotes. JavaScript variables are created as following:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i> <span><</span>body<span>></span> <br> <span><</span>p id="test"<span>></span> <span><</span>/p <span>></span> <br> <span><</span>/body <span>></span> <br> <span><</span>script<span>></span> <br> var drink='Milk'; <br> document.getElementById('test').innerHTML = drink; <br> <span><</span>/script<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to JS Variables. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+        <a href="/jsArrays"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}

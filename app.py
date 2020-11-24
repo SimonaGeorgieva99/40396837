@@ -32,21 +32,65 @@ def htmlTables():
 def htmlForm():
 	return render_template('htmlForm.html')
 
-@app.route('/contacts/')
-def contacts():
-	return render_template('contacts.html')
+@app.route('/cssIntro/')
+def cssIntro():
+	return render_template('cssIntro.html')
+
+@app.route('/cssSelectors/')
+def cssSelectors():
+	return render_template('cssSelectors.html')
+
+@app.route('/cssBackgrounds/')
+def cssBackgrounds():
+	return render_template('cssBackgrounds.html')
+
+@app.route('/cssMarginPadding/')
+def cssMarginPadding():
+	return render_template('cssMarginPadding.html')
+
+@app.route('/cssText/')
+def cssText():
+	return render_template('cssText.html')
+
+@app.route('/jsIntro/')
+def jsIntro():
+	return render_template('jsIntro.html')
+
+@app.route('/jsVars/')
+def jsVars():
+	return render_template('jsVars.html')
+
+@app.route('/jsArrays/')
+def jsArrays():
+	return render_template('jsArrays.html')
+
+@app.route('/jsConditions/')
+def jsConditions():
+	return render_template('jsConditions.html')
+
+@app.route('/jsLoops/')
+def jsLoops():
+	return render_template('jsLoops.html')
+
+@app.route('/jsFunctions/')
+def jsFunctions():
+	return render_template('jsFunctions.html')
 
 @app.route('/contacts/',methods=['POST'])
 def test():
 	mess=request.form['body']
 	return redirect('mailto:mon4eto@abv.bg'+str(mess))
 
-@app.route('/')
-def index():
+@app.route('/contacts/')
+def contacts():
+	return render_template('contacts.html')
+
+@app.route('/discussion/')
+def discussion():
 	conn = get_db_connection()
-	posts = conn.execute('SELECT * FROM posts').fetchall()
+	posts = conn.execute('SELECT * FROM posts ORDER BY id DESC').fetchall()
 	conn.close()
-	return render_template('index.html', posts=posts)
+	return render_template('discussion.html', posts=posts)
 
 def get_db_connection():
 	conn = sqlite3.connect('database.db')
@@ -67,7 +111,7 @@ def create():
                          (name, comment))
             conn.commit()
             conn.close()
-            return redirect(url_for('index'))
+            return redirect(url_for('discussion'))
 
     return render_template('create.html')
 
