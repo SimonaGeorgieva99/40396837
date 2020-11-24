@@ -28,9 +28,9 @@ def htmlLayout():
 def htmlTables():
 	return render_template('htmlTables.html')
 
-@app.route('/htmlForms/')
-def htmlForms():
-	return render_template('htmlForms.html')
+@app.route('/htmlForm/')
+def htmlForm():
+	return render_template('htmlForm.html')
 
 @app.route('/contacts/')
 def contacts():

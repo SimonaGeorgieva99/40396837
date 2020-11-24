@@ -1,0 +1,40 @@
+{% extends "htmlMaster.html" %}
+
+{% block contentTwo %}
+
+<div class="examples">
+	<div class="theoryContent">
+		<p>HTML forms are used to get user input which is then sent to server for processing. It is created using the <i><span><</span>form<span>></span></i> tag and can contain different elements in it such as input, text area, labels, buttons, checkboxes, etc. The example on the right is one of the simplest forms which is used in the 'Contacts' page as well.</p>
+	</div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<img src="{{ url_for('static', filename='images/form.JPG') }}" style="display: block; margin-left:auto; margin-right:auto;">
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Checkboxes might also be another really useful thing when creating a form and the following example will give a piece of code showing how to create a checkbox.</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>form action="#" (where to go after clicking on submit)<span>></span></i> <br> <i><span><</span>input type="checkbox" name="drink1" value="Coffee"<span>></span></i> <br> <i><span><</span>label for="drink1"<span>></span></i> I love coffee <i><span><</span>/label<span>></span></i> <br> <i><span><</span>input type="checkbox" name="drink2" value="Milk"<span>></span></i> <br> <i><span><</span>label for="drink2"<span>></span>I love milk</i> <i><span><</span>/label<span>></span></i> <br> <i><span><</span>input type="submit" value="Submit"<span>></span></i> <br> <i><span><</span>/form<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to HTML Forms. More informaton will be provided in the next lessons. Click the button to continue.</p>
+    
+<div class="button-container">
+	<a href="/cssIntro"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}
+
