@@ -1,0 +1,39 @@
+{% extends "jsMaster.html" %}
+
+{% block contentTwo %} 
+
+<div class="examples">
+        <div class="theoryContent">
+		<p>The <i>function</i> keyword is used to define a function is JavaScript. You can use a function declaration or expression. </p>
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i>function name(parameters) { <br> // code to be executed <br> } </i></p>
+        </div>
+</div>
+    
+<div class = "examples">
+        <div class="theoryContent">
+		<p>Functions can have parameter value(arguments). Their data type does not need to be defined and does not perform type checking. If the parameters are missing while calling the function, they are set to undefined by default. Here is an example when they are set by default:</p> 
+        </div>
+
+        <div class="arrow">
+		&rarr;
+        </div>
+
+        <div class="codeExample">
+		<p><i><span><</span>body<span>></span> <br> <span><</span>p id="test"<span>></span> <br> <span><</span>script<span>></span> <br> function myFunc(x, y = 3) { <br> return x + y; <br> } <br> document.getElementById("test").innerHTML = myFunction(4); <br> <span><</span>/script<span>></span> <br> <span><</span>/body<span>></span></i></p>
+        </div>
+</div>
+
+<p class="end-paragraph">Here comes the end of the introduction to JS Functions and the whole studying materials. Feel free to join the discussion and ask questions via the form in the contacts page. Click the button to continue.</p>
+    
+<div class="button-container">
+        <a href="/discussion"><button class="next-button">NEXT</button></a>
+</div>
+
+{% endblock %}
