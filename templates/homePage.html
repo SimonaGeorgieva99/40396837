@@ -1,5 +1,9 @@
 {% extends "master.html" %}
 
+{% block contentHead %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesHome.css') }}">
+{% endblock %}
+
 {%block content %}
 	<div class="image">
 		<img src="{{ url_for('static', filename='images/webdev.jpg') }}" class="title-image" height="560">

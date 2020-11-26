@@ -1,12 +1,23 @@
 {% extends "master.html" %}
 
+{% block contentHead %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='discussion.css') }}">
+{% endblock %}
+
 {% block content %}
-	<a href="/create">Add new comment</a>
-	<p> In discussion </p>
+	<h1><i>Exchanging of knowledge leads to progress and success!</i></h1>
+
+	<h3>This is a place where you can ask questions and discuss it with others. You can also suggest any improvements on the website if you wish to. We are open to any suggestions.</h3>
+
+	<a href="/create" class="add-comment">+ Click here to add new comment</a>
+	
+	<div class="container">
 	{% for post in posts %}
 		<p> {{ post['name'] }} </p>
-		<span> {{ post['comment'] }} </span>
+		<p class="comment"> {{ post['comment'] }} </p>
 		<hr>
 	{% endfor %}
-
+	</div>
+	
+	<h3>Thank you for all of your support. Hope to see you soon again.</h3>
 {% endblock %}

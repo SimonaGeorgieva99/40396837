@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	padding: 2%;
+}
+
+.button {
+	margin-left: 70px;
+	padding: 1%;
+}
+
+.comment {
+	padding: 1%;
+}
+
+.form {
+	text-align: center;
+}
+
+.name {
+	padding: 1%;
+}
+
+.name-field {
+	margin-left: 21px;
+}
+
+.submit {
+	background-color: #00BCD4;
+	font-size: 22px;
+	height: 40px;
+	width: 100px;
+}

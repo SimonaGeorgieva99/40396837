@@ -3,7 +3,7 @@
 	width: 760px;
 	margin-left: 755px;
 	font-size: 25px;
-	background-image: linear-gradient(to bottom right, #00bcd4, #009688);
+	background-image: linear-gradient(to bottom right, #00bcd4, lightcyan);
 }
 
 .navigation {
@@ -14,8 +14,12 @@
 	color: black;
 }
 
+.navigation:hover {
+	color: red;
+}
+
 footer {
-	background-image: linear-gradient(to bottom right, #00bcd4, #009688);
+	background-image: linear-gradient(to bottom right, #00bcd4, lightcyan);
 }
 
 .footer-content {

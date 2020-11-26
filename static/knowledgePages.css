@@ -32,6 +32,10 @@ p {
         font-weight: bolder;            
 }
 
+.navigationTwo:hover {
+	color: red;
+}
+
 .examples {
         display: flex;
         flex-wrap: wrap;

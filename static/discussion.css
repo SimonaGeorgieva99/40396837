@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	padding: 2%;
+}
+
+h3 {
+	background-color: lightcyan;
+	font-family: "Lucida Console", Courier, monospace;
+	padding: 1%;
+	text-align: center;
+}
+
+p{
+	margin: 0;
+}
+        
+.comment {
+	font-size: 20px;
+}
+
+.container {
+	padding: 2% 1%;
+}
+
+.add-comment {
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 20px;
+	padding: 10px 1%;
+	text-decoration: none;
+	border: 1px solid black;
+	background-image: linear-gradient(to bottom right, #00bcd4, lightcyan);
+	border-radius: 20px;
+}
+
+a:hover {
+	color: red;
+}
