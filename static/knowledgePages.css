@@ -81,5 +81,6 @@ p {
 
 .next-button {
         font-size: 30px;
-        background-color: lightcyan;
+	background-image: linear-gradient(to bottom right, #00bcd4, lightcyan);
+	border-radius: 20px;
 }
