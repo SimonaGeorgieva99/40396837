@@ -14,10 +14,9 @@
 	color: black;
 }
 
-.navigation:hover {
+.navigation:active {
 	color: red;
 }
-
 footer {
 	background-image: linear-gradient(to bottom right, #00bcd4, lightcyan);
 }

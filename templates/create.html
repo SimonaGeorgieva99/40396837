@@ -11,15 +11,12 @@
 <form class="form"  method="post">
 	<div class="name">    
         <label for="name">Your name:</label>
-        <input type="text" name="name"
-               placeholder="Post name" class="name-field"
-               value="{{ request.form['name'] }}"></input>
+        <input type="text" name="name" placeholder="Post name" class="name-field" value="{{ request.form['name'] }}"></input>
     	</div>
 
     	<div class="comment">
         <label for="comment">Your comment:</label>
-        <textarea name="comment" placeholder="Post comment"
-                  class="comment-field">{{ request.form['comment'] }}</textarea>
+        <textarea name="comment" placeholder="Post comment" class="comment-field">{{ request.form['comment'] }}</textarea>
     	</div>
     	
 	<div class="button">
