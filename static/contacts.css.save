@@ -1,12 +1,12 @@
 .container-block {
 	display:flex;
-	padding: 3% 1%;
+	padding: 3% 2%;
         justify-content: center;
 }
 
 .info {
 	float: left;
-        margin: 0% 40% 0% 0%;
+        padding: 0% 40% 0% 0%;
 	background-color: lightcyan;
 }
 
@@ -16,7 +16,7 @@
 
 .container {
         display:flex;
-	padding: 2% 3%;
+	padding: 2% %;
 }
 
 .info-content {
@@ -24,26 +24,17 @@
         display: inline-table;
         border: 1px solid black;
         width: 38%;
+        margin: 0% 40% 0% 1%;
         padding: 2% 1%;
 	background-color: lightcyan;
 }
 
 .helper-info {
 	font-size: 20px;
-	
-}
-
-#contact-form {
-	font-size: 25px;
+: 25px;
         justify-content: center;
 }
 
 .form {
-        padding-left: 565px;
-}
-
-.send-button {
-	background-image: linear-gradient(to bottom right, #00bcd4, white);
-	font-size: 25px;
-	padding: 10px 10px;
+        padding-left: 455px;
 }
